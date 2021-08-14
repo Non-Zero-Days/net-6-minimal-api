@@ -5,7 +5,7 @@
 ### Prerequisites:
 
 [.NET 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
-[Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022//)
+[Visual Studio Code](https://code.visualstudio.com/)
 
 ### Loose Agenda:
 Set up APIs in the .NET 6 WebAPI template without controllers
