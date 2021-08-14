@@ -5,6 +5,7 @@
 ### Prerequisites:
 
 [.NET 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
+
 [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Loose Agenda:
