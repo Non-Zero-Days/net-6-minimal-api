@@ -31,7 +31,7 @@ app.MapGet("/demo", (DemoService _service) => {
     return _service.NeedlesslyConsumeResources();
 });
 
-app.MapGet("/actionresults", (DemoService _service, [FromQuery]bool acceptable) => {
+app.MapGet("/actionresults", (DemoService _service, bool acceptable) => {
     if(acceptable) {
         return Results.Ok(_service.NeedlesslyConsumeResources());
     }
