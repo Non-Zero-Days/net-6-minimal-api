@@ -87,10 +87,8 @@ Let's end by demonstrating ActionResults as a return type in minimal APIs
 
 One more GET endpoint, but this one will be tempermental.
 
-We'll need to add an using declaration for `FromQuery` by adding `using Microsoft.AspNetCore.Mvc;`
-
 ```C#
-app.MapGet("/actionresults", (DemoService _service, [FromQuery]bool acceptable) => {
+app.MapGet("/actionresults", (DemoService _service, bool acceptable) => {
     if(acceptable) {
         return Results.Ok(_service.NeedlesslyConsumeResources());
     }
